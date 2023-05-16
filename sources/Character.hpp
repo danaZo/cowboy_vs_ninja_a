@@ -53,6 +53,8 @@ namespace ariel {
           to indicate that they are not allowed to be used, 
           which prevents potential issues related to 
           object copying or moving that may arise with derived classes.
+          Web source for solution:
+          https://stackoverflow.com/questions/48422601/why-must-i-declare-copy-move-constructors-when-declaring-destructors
         */
         // Delete copy constructor and copy assignment operator
         Character(const Character&) = delete;
