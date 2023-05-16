@@ -73,6 +73,8 @@ namespace ariel{
             virtual ~Team();
 
             // disable because make tidy yells
+            // Web source for solution:
+            // https://stackoverflow.com/questions/48422601/why-must-i-declare-copy-move-constructors-when-declaring-destructors
             Team(const Team&) = delete;
             Team& operator=(const Team&) = delete;
             Team(Team&&) = delete;
